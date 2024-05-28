@@ -1,0 +1,502 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEDC97022C05B257001A5A16 /* Hiiro_TestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDC97012C05B257001A5A16 /* Hiiro_TestApp.swift */; };
+		CEDC97062C05B259001A5A16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEDC97052C05B259001A5A16 /* Assets.xcassets */; };
+		CEDC97092C05B259001A5A16 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEDC97082C05B259001A5A16 /* Preview Assets.xcassets */; };
+		CEDC97122C05BE37001A5A16 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDC97112C05BE37001A5A16 /* CalendarView.swift */; };
+		CEDC97142C05BE4F001A5A16 /* Actitvity.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDC97132C05BE4F001A5A16 /* Actitvity.swift */; };
+		CEDC97172C05BED3001A5A16 /* CalendarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDC97162C05BED3001A5A16 /* CalendarViewModel.swift */; };
+		CEDC97212C064B44001A5A16 /* Hiiro_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDC97202C064B44001A5A16 /* Hiiro_TestTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEDC97222C064B44001A5A16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEDC96F62C05B257001A5A16 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEDC96FD2C05B257001A5A16;
+			remoteInfo = "Hiiro Test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CEDC96FE2C05B257001A5A16 /* Hiiro Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hiiro Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEDC97012C05B257001A5A16 /* Hiiro_TestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hiiro_TestApp.swift; sourceTree = "<group>"; };
+		CEDC97052C05B259001A5A16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEDC97082C05B259001A5A16 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CEDC97112C05BE37001A5A16 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		CEDC97132C05BE4F001A5A16 /* Actitvity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Actitvity.swift; sourceTree = "<group>"; };
+		CEDC97162C05BED3001A5A16 /* CalendarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewModel.swift; sourceTree = "<group>"; };
+		CEDC971E2C064B44001A5A16 /* Hiiro TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hiiro TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEDC97202C064B44001A5A16 /* Hiiro_TestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hiiro_TestTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEDC96FB2C05B257001A5A16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEDC971B2C064B44001A5A16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEDC96F52C05B257001A5A16 = {
+			isa = PBXGroup;
+			children = (
+				CEDC97002C05B257001A5A16 /* Hiiro Test */,
+				CEDC971F2C064B44001A5A16 /* Hiiro TestTests */,
+				CEDC96FF2C05B257001A5A16 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEDC96FF2C05B257001A5A16 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEDC96FE2C05B257001A5A16 /* Hiiro Test.app */,
+				CEDC971E2C064B44001A5A16 /* Hiiro TestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEDC97002C05B257001A5A16 /* Hiiro Test */ = {
+			isa = PBXGroup;
+			children = (
+				CEDC97012C05B257001A5A16 /* Hiiro_TestApp.swift */,
+				CEDC97152C05BEBD001A5A16 /* ViewModel */,
+				CEDC97102C05BE1B001A5A16 /* Model */,
+				CEDC970F2C05BE10001A5A16 /* View */,
+				CEDC97052C05B259001A5A16 /* Assets.xcassets */,
+				CEDC97072C05B259001A5A16 /* Preview Content */,
+			);
+			path = "Hiiro Test";
+			sourceTree = "<group>";
+		};
+		CEDC97072C05B259001A5A16 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CEDC97082C05B259001A5A16 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CEDC970F2C05BE10001A5A16 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CEDC97112C05BE37001A5A16 /* CalendarView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CEDC97102C05BE1B001A5A16 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CEDC97132C05BE4F001A5A16 /* Actitvity.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CEDC97152C05BEBD001A5A16 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CEDC97162C05BED3001A5A16 /* CalendarViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CEDC971F2C064B44001A5A16 /* Hiiro TestTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEDC97202C064B44001A5A16 /* Hiiro_TestTests.swift */,
+			);
+			path = "Hiiro TestTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEDC96FD2C05B257001A5A16 /* Hiiro Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEDC970C2C05B259001A5A16 /* Build configuration list for PBXNativeTarget "Hiiro Test" */;
+			buildPhases = (
+				CEDC96FA2C05B257001A5A16 /* Sources */,
+				CEDC96FB2C05B257001A5A16 /* Frameworks */,
+				CEDC96FC2C05B257001A5A16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hiiro Test";
+			productName = "Hiiro Test";
+			productReference = CEDC96FE2C05B257001A5A16 /* Hiiro Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEDC971D2C064B44001A5A16 /* Hiiro TestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEDC97242C064B44001A5A16 /* Build configuration list for PBXNativeTarget "Hiiro TestTests" */;
+			buildPhases = (
+				CEDC971A2C064B44001A5A16 /* Sources */,
+				CEDC971B2C064B44001A5A16 /* Frameworks */,
+				CEDC971C2C064B44001A5A16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEDC97232C064B44001A5A16 /* PBXTargetDependency */,
+			);
+			name = "Hiiro TestTests";
+			productName = "Hiiro TestTests";
+			productReference = CEDC971E2C064B44001A5A16 /* Hiiro TestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEDC96F62C05B257001A5A16 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					CEDC96FD2C05B257001A5A16 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					CEDC971D2C064B44001A5A16 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = CEDC96FD2C05B257001A5A16;
+					};
+				};
+			};
+			buildConfigurationList = CEDC96F92C05B257001A5A16 /* Build configuration list for PBXProject "Hiiro Test" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEDC96F52C05B257001A5A16;
+			productRefGroup = CEDC96FF2C05B257001A5A16 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEDC96FD2C05B257001A5A16 /* Hiiro Test */,
+				CEDC971D2C064B44001A5A16 /* Hiiro TestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEDC96FC2C05B257001A5A16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEDC97092C05B259001A5A16 /* Preview Assets.xcassets in Resources */,
+				CEDC97062C05B259001A5A16 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEDC971C2C064B44001A5A16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEDC96FA2C05B257001A5A16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEDC97172C05BED3001A5A16 /* CalendarViewModel.swift in Sources */,
+				CEDC97122C05BE37001A5A16 /* CalendarView.swift in Sources */,
+				CEDC97142C05BE4F001A5A16 /* Actitvity.swift in Sources */,
+				CEDC97022C05B257001A5A16 /* Hiiro_TestApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEDC971A2C064B44001A5A16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEDC97212C064B44001A5A16 /* Hiiro_TestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEDC97232C064B44001A5A16 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEDC96FD2C05B257001A5A16 /* Hiiro Test */;
+			targetProxy = CEDC97222C064B44001A5A16 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CEDC970A2C05B259001A5A16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CEDC970B2C05B259001A5A16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEDC970D2C05B259001A5A16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Hiiro Test/Preview Content\"";
+				DEVELOPMENT_TEAM = C4L53C7A94;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "udachi.tomo.Hiiro-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEDC970E2C05B259001A5A16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Hiiro Test/Preview Content\"";
+				DEVELOPMENT_TEAM = C4L53C7A94;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "udachi.tomo.Hiiro-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CEDC97252C064B44001A5A16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C4L53C7A94;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "udachi.tomo.Hiiro-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hiiro Test.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Hiiro Test";
+			};
+			name = Debug;
+		};
+		CEDC97262C064B44001A5A16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C4L53C7A94;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "udachi.tomo.Hiiro-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hiiro Test.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Hiiro Test";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEDC96F92C05B257001A5A16 /* Build configuration list for PBXProject "Hiiro Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEDC970A2C05B259001A5A16 /* Debug */,
+				CEDC970B2C05B259001A5A16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEDC970C2C05B259001A5A16 /* Build configuration list for PBXNativeTarget "Hiiro Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEDC970D2C05B259001A5A16 /* Debug */,
+				CEDC970E2C05B259001A5A16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEDC97242C064B44001A5A16 /* Build configuration list for PBXNativeTarget "Hiiro TestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEDC97252C064B44001A5A16 /* Debug */,
+				CEDC97262C064B44001A5A16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEDC96F62C05B257001A5A16 /* Project object */;
+}
